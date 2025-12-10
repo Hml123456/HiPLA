@@ -6,9 +6,11 @@
 
 ## Key Contributions
 
-  - 11111111111111111111111111111111111111111111111111111.
-  - 2222222222222222222222222222222222222222222222222222222222.
-  - 33333333333333333333333333333333333333333333333333333333333333333.
+  - We proposed a multi-scale learning framework, which combines the local 3D structural features of GIGN with the global topological features of GIN. Through multilevel feature representation, comprehensive modeling from atomic-level interactions to molecule-level overall structures is achieved.
+
+  - An innovative feature fusion strategy was designed to capture the interdependence between proteins and ligands through a bidirectional cross-attention mechanism, and a gating mechanism was introduced to dynamically balance local cross-attention features and global representations, achieving adaptive feature weight adjustment.
+    
+  - We conducted a large number of experiments to evaluate the model, which indicated that our model outperformed the current latest methods in predicting protein-ligand binding affinity.
 
 
 ## Dataset
