@@ -37,3 +37,15 @@ openbabel==3.3.1 (conda install -c conda-forge openbabel)
 - **`./log`:** Logger.
 - **`./model`:** Contains model checkpoints and training records.
 - **Scripts and Implementations:** Various Python files implementing models, preprocessing, training, and testing.
+
+## Step-by-step Running
+
+### 1. Process Raw Data
+- Download the preprocessed datasets and organize them in the `./data` folder.
+  - `python preprocessing.py`
+  - `python dataset_HiPLA.py`
+
+### 2. Model Training And Testing
+- After processing the dataset
+  - `python train.py`
+
