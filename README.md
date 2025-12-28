@@ -2,7 +2,7 @@
 
 ## Overview of the Architecture
 
-![Overview of the Architecture](./assets/CheapNet_Overview.png)
+![Overview of the Architecture](./HiPLA_Overview.png)
 
 ## Key Contributions
 
