@@ -1,4 +1,4 @@
-# HiPLA:Efficient Protein-Ligand Binding Affinity Prediction via Hierarchical Graph Interaction and Global-Local Attention Fusion
+# HiPLA: An Efficient Hierarchical Graph Model for Protein–Ligand Binding Affinity Prediction
 
 ## Overview of the Architecture
 
