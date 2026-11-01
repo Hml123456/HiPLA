@@ -4,11 +4,13 @@
 
 ## Key Contributions
 
-  - We proposed a multi-scale learning framework, which combines the local 3D structural features of GIGN with the global topological features of GIN. Through multilevel feature representation, comprehensive modeling from atomic-level interactions to molecule-level overall structures is achieved.
+  - We propose HiPLA, a hierarchical graph framework that formulates protein-ligand binding affinity prediction as coordinated interaction modeling across multiple structural levels.
 
-  - An innovative feature fusion strategy was designed to capture the interdependence between proteins and ligands through a bidirectional cross-attention mechanism, and a gating mechanism was introduced to dynamically balance local cross-attention features and global representations, achieving adaptive feature weight adjustment.
+  - HiPLA jointly captures short-range 3D contacts at the binding interface and the topological organization of ligand and protein-pocket subgraphs, enabling local geometric patterns and broader structural context to be learned together.
     
-  - We conducted a large number of experiments to evaluate the model, which indicated that our model outperformed the current latest methods in predicting protein-ligand binding affinity.
+  - We design a bidirectional cross-attention and global-context-conditioned gating mechanism to model protein-ligand interdependence and adaptively integrate complementary representations for affinity prediction.
+  
+  - Extensive experiments on multiple benchmark datasets demonstrate that HiPLA achieves competitive predictive performance and stable generalization in protein-ligand binding affinity prediction.
 
 
 ## Dataset
