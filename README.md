@@ -1,8 +1,6 @@
 # HiPLA: An Efficient Hierarchical Graph Model for Protein–Ligand Binding Affinity Prediction
 
-## Overview of the Architecture
 
-![Overview of the Architecture](./HiPLA_Overview.png)
 
 ## Key Contributions
 
